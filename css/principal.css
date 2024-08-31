@@ -70,3 +70,9 @@ header{
     font-size: 26pt;
     text-align: center;
 }
+#linha2{
+    width: 500px;  
+    height: 555px; 
+    background-color: #000000;
+    margin-left: 690px;
+}
