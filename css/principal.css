@@ -34,13 +34,39 @@ header{
 #logo{
     width: 70px;
     height: 70px;
-    margin-right: 400px;
+    margin-right: 500px;
 }
 #nome_logo{
-   width: 400px;
-   margin-top: 170px;
-    margin-left: 700px;
+    width: 400px;
+    margin-top: 170px;
+    margin-left: 750px;
     font-family: WC;
     color: #ad1818;
     font-size: 65pt;
+}
+.float-left{
+    width: 630px;
+    height: 90%;
+}
+.linha{
+    width: 500px;  
+    height: 5px;      
+    background: 
+    linear-gradient(to right, #fbffaf, #ffe021) 0% 0%, /* Gradiente da esquerda para a direita */
+    linear-gradient(to left, #fbffaf, #ffe021) 0% 0%; /* Gradiente da direita para a esquerda */
+    background-size: 50% 100%, 50% 100%; /* Cada gradiente cobre 50% da largura e 100% da altura */
+    background-position: left top, right top; /* Um gradiente começa à esquerda, o outro à direita */
+    background-repeat: no-repeat; /* Evita que o gradiente se repita */
+    margin-left: 690px;
+    margin-top: -35px;
+}
+#nome_logo2{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 725px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Anton;
+    font-size: 26pt;
+    text-align: center;
 }
